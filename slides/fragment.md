@@ -21,6 +21,8 @@ fade-in-then-semi-out<!-- .element: class="fragment fade-in-then-semi-out" -->
 
 Highlight <!-- .element: class="fragment highlight-red" -->red <!-- .element: class="fragment highlight-blue" -->blue <!-- .element: class="fragment highlight-green" -->green
 
+----
+
 ## Fragment test
 There's different types of fragments, like:
 * test1<!-- .element: class="fragment" -->
