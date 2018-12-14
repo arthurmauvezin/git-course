@@ -18,15 +18,23 @@
 
 ----
 
-### Centralisé vs Distribué
-<img class="fragment fade-out" src="images/centralized.png" style="background:none; border:none; box-shadow:none;"/>
-<img class="fragment fade-in" src="images/distributed.png" style="background:none; border:none; box-shadow:none;"/>
+### Centralisé vs ...
+<img src="images/centralized.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### Tout est snapshot
-<img class="fragment fade-out" src="images/deltas.png" style="background:none; border:none; box-shadow:none;"/>
-<img class="fragment fade-in" src="images/snapshots.png" style="background:none; border:none; box-shadow:none;"/>
+### Distribué
+<img src="images/distributed.png" style="background:none; border:none; box-shadow:none;"/>
+
+----
+
+### Tout est snapshot: Avant
+<img src="images/deltas.png" style="background:none; border:none; box-shadow:none;"/>
+
+----
+
+### Tout est snapshot: Après
+<img src="images/snapshots.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
