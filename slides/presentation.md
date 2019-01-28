@@ -13,7 +13,7 @@
 ### Le VCS le plus utilisé: Git
 
 * Crée en 2005 par Linus Torvalds
-* Pour contenir les développements du noyau Linux
+* But: contenir les développements du noyau Linux
 * Très populaire dans la communauté Opensource 
 
 ----
@@ -41,7 +41,7 @@
 ### .git
 <img src="images/object-graph.png" style="background:none; border:none; box-shadow:none;"/>
 
----
+----
 
 ### .git
 
@@ -51,26 +51,18 @@
 
 ----
 
-### Les trois états du projet Git
-
-* committed : le fichier a été stoqué dans la base de données Git
-* modified : le fichier a été modifié mais n'a pas encore été commité 
-* staged : le fichier modified est enregistré dans sa version actuelle pour faire parti du prochain commit
-
-----
-
-### Les trois états du projet Git
+### Les trois sections du projet Git
 <img src="images/areas.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
-### Les trois états du projet Git
+### Les trois sections du projet Git
 
 * Git Directory : base de données Git pour le projet
 * Working Directory : un checkout d'une version du projet
 * Staging Area (Index) : un fichier qui enregistre quel modifications feront partis du prochain commit
 
----
+----
 
 ### Installation et configuration
 * [Installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)

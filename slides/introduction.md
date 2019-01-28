@@ -19,9 +19,10 @@
 
 * Présentation et concepts
 * Utilisation basique
+* Travailler en remote
+* Gestion de branches
+* Utilisation de Gitflow
 * Utilisation avancée
-* Gérer les conflits
-* Un workflow Git: Gitflow
 * Tools Git
 
 ---
