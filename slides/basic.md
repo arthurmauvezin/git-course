@@ -26,10 +26,10 @@ git clone <url>
 ----
 
 ### Vérifier les statut des fichiers
+Dès que vous avez un doute sur l'état des fichiers dans votre repo
 ```bash
 git status
 ```
-> Dès que vous avez un doute sur l'état des fichiers dans votre repo
 Option fréquente:
   * `-s` : show status concisely
 
@@ -50,6 +50,7 @@ git add .
 
 ### Ignorer des fichiers
 Pour ignorer des fichiers afin qu'ils ne soient pas ajoutés à la Staging Area lors d'un `add`, il est possible de créer un fichier .gitignore dans le repo git.
+
 Exemple de fichier `.gitignore`
 ```
 *.log
@@ -70,6 +71,7 @@ git diff --staged
 # or
 git diff --cached
 ```
+
 ----
 
 ### Commiter les modifications
@@ -85,10 +87,11 @@ Option fréquente:
 ```bash
 git rm <file>
 ```
-* Pour garder le fichier et le passer en untracked
+Pour garder le fichier et le passer en untracked
 ```bash
 git rm --cached <file>
 ```
+
 ----
 
 ### Renommer / Déplacer des fichiers
@@ -112,22 +115,29 @@ Option | Description
 -N | N: nombre de commit à afficher
 -p | affiche les diff
 --stat | affiche les statistiques liées aux fichiers modifiés
---pretty=<arg> | arg: type d'affichage demandé
+--pretty | arg: type d'affichage demandé
 --graph | affiche une représentation graphique de l'historique de commit
 
 ----
 
-### Git log: Filtre
+### Git log: Filtre (1)
 
 Option | Description
 --- | ---
---since=<time> | time: time since commit (ex: --since=2.weeks)
---until=<time> | time: time until commit (ex: --since=2.weeks)
---author=<string> | string: partie du nom de l'autheur du commit
---commiter=<string> | string: partie du nom du commiter
---grep=<string> | string: mot à rechercher dans les messages de commit
+--since | time: time since commit (ex: --since=2.weeks)
+--until | time: time until commit (ex: --since=2.weeks)
+--author | string: partie du nom de l'autheur du commit
+--commiter | string: partie du nom du commiter
+
+----
+
+### Git log: Filtre (2)
+
+Option | Description
+--- | ---
+--grep | string: mot à rechercher dans les messages de commit
 --all-match | affiche uniquement les commits validant toutes les règles
--S <string> | affiche uniquement les commits ayant modifier du code contenant la <string>
+-S | affiche uniquement les commits ayant modifier du code contenant la <string>
 --no-merges | n'affiche pas les commit de merges techniques
 
 ----

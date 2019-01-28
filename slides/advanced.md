@@ -6,6 +6,7 @@
 ```bash
 git init
 ```
+
 ----
 
 ### Ajouter des modifications au dernier commit

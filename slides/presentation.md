@@ -24,7 +24,7 @@
 ----
 
 ### Distribué
-<img src="images/distributed.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="images/distributed.png" width="60%" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -60,7 +60,7 @@
 
 * Git Directory : base de données Git pour le projet
 * Working Directory : un checkout d'une version du projet
-* Staging Area (Index) : un fichier qui enregistre quel modifications feront partis du prochain commit
+* Staging Area (Index) : un fichier qui enregistre quelles modifications feront parties du prochain commit
 
 ----
 

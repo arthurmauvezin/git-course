@@ -40,7 +40,9 @@
 * Sa durée de vie doit être courte
 * Elle peut partir de n'importe quelle branche mais doit être mergée dans la même branche à son terme
 
+
 ---- 
+
 
 ### Branche: release/xxx
 

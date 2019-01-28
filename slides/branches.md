@@ -8,7 +8,7 @@
 ----
 
 ### Fonctionnement des branches: parents
-<img src="images/commit-and-parents.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="images/commits-and-parents.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
@@ -29,8 +29,8 @@
 git branch
 ```
 Option fréquentes:
-`-a`: all
-`-v`: last commit on each branch
+* `-a`: all
+* `-v`: last commit on each branch
 
 ----
 
@@ -71,7 +71,7 @@ Parfois les three-way merges rentrent en conflits. Il faut alors
 ----
 
 ### Remote Branches (1)
-<img src="images/remote-branches-1.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="images/remote-branches-1.png" style="border:none; box-shadow:none;"/>
 
 ----
 
@@ -98,6 +98,4 @@ git branch -vv
 ```bash
 git push <remote_name> --delete <branch_name>
 ```
-
-----
 
