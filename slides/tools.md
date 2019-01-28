@@ -9,7 +9,7 @@ Afficher les logs avec les hash de commit courts
 git log --abbrev-commit
 ```
 
----
+----
 
 ### Afficher le reflog
 
@@ -18,7 +18,7 @@ Journal des changements locaux réalisés sur le repo.
 git reflog
 ```
 
----
+----
 
 ### Sélectionner le commit parent d'un commit
 
@@ -28,7 +28,7 @@ git log HEAD~~
 git log HEAD~4
 ```
 
----
+----
 
 ### Sélectionner une plage de commits
 
@@ -37,7 +37,7 @@ git log <from>..<to>
 git log master..HEAD
 ```
 
----
+----
 
 ### Stage une partie d'un fichier
 

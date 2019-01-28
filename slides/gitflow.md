@@ -37,12 +37,10 @@
 ### Branche: bugfix/xxx
 
 * Branche de correction d'une anomalie
-* Sa durée de vie doit être courte
 * Elle peut partir de n'importe quelle branche mais doit être mergée dans la même branche à son terme
+* Sa durée de vie doit être courte
 
-
----- 
-
+----
 
 ### Branche: release/xxx
 

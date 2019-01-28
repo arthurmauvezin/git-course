@@ -39,6 +39,22 @@ Utilisation basique
   * fetch
   * branch
 
+Gitflow
+* Les types de branches
+  * master
+  * develop
+  * develop-sdk
+  * develop-nlite
+  * feature/
+  * bugfix/
+  * release/
+  * support/
+* Actions automatiques en fonction du type de branches
+  * Analyse qualités
+  * Déploiement
+  * Testing
+  * ...
+
 Utilisation avancée
 * commit --amend
 * reset
@@ -62,25 +78,13 @@ Gestion des conflits et pull requests avec BB
   * merge
   * rebase
 
-Gitflow
-* Les types de branches
-  * master
-  * develop
-  * develop-sdk
-  * develop-nlite
-  * feature/
-  * bugfix/
-  * release/
-  * support/
-* Actions automatiques en fonction du type de branches
-  * Analyse qualités
-  * Déploiement
-  * Testing
-  * ...
-
 Présentation des outils Atlassian
 * Liaison JIRA > Bitbucket > Bamboo
 * Voire artifactory
+
+Missing:
+* hook
+* cherry=pick
 
 TP
 
