@@ -20,7 +20,7 @@
 ### Fonctionnement des branches: nommage
 
 * la branche par défaut est appelée master
-* un pointeur spécial appelé HEAD pointe sur la branche courrante
+* un pointeur spécial appelé HEAD pointe sur la branche courante
 
 ----
 
@@ -47,7 +47,7 @@ git branch <branch_name>
 ```
 Pour créer une branche et pointer dessus
 ```bash
-git branch -b <branch_name>
+git checkout -b <branch_name>
 ```
 
 ----

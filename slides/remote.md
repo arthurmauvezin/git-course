@@ -40,7 +40,7 @@ git fetch <remote_name>
 ----
 
 ### Synchroniser et merger son repo à partir d'une remote
-Télécharge les dernières modifications et tente un merge sur la branche courrante
+Télécharge les dernières modifications et tente un merge sur la branche courante
 ```bash
 git pull <remote_name>
 ```

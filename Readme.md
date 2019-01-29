@@ -85,6 +85,11 @@ Présentation des outils Atlassian
 Missing:
 * hook
 * cherry=pick
+* bitbucket
+* pull request
+* git template
+* subtree
+* filter-branch
 
 TP
 
