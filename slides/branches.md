@@ -52,6 +52,17 @@ git checkout -b <branch_name>
 
 ----
 
+### Supprimer une branche
+```bash
+git branch -d <branch_name>
+```
+* Pour forcer le delete:
+```bash
+git branch -D <branch_name>
+```
+
+----
+
 ### Merger une branche
 ```bash
 git merge <branch_to_merge_from>
