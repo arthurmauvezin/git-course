@@ -37,4 +37,11 @@
 
 ----
 
+## Ressources
+
+* Le cours: [https://arthurmauvezin.github.io/git-course](https://arthurmauvezin.github.io/git-course)
+* [Le repo du cours](https://github.com/arthurmauvezin/git-course)
+
+----
+
 ### C'est une formation interactive, n'hésitez pas à poser vos questions !

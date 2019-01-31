@@ -38,6 +38,10 @@ Option fréquentes:
 ```bash
 git checkout <branch_name>
 ```
+Astuce: Revenir à la branch précédente
+```bash
+git checkout -
+```
 
 ----
 
