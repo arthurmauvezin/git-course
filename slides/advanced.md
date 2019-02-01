@@ -14,6 +14,8 @@ git init
 git blame <file_name>
 ```
 
+----
+
 ### Ajouter des modifications au dernier commit
 ```bash
 git commit --amend
